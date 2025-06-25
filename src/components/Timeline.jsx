@@ -10,7 +10,7 @@ const Timeline = () => {
   }, [])
 
   const fetchEntries = async () => {
-    const res = await axios.get('http://localhost:5000/entries')
+    const res = await axios.get('https://ai-journaling-backend.onrender.com/entries')
     setEntries(res.data)
   }
 
