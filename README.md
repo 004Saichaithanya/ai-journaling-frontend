@@ -71,6 +71,9 @@ Production URL: `https://ai-journaling-frontend.vercel.app`
 
 ---
 
+## 📌 Backend Repo Link
+Visit : https://github.com/004Saichaithanya/ai-journaling-backend
+
 ## 📌 Backend API
 
 The frontend communicates with the Flask backend hosted at:
