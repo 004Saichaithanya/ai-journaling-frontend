@@ -7,7 +7,7 @@ const EntryForm = () => {
 
   const handleSubmit = async () => {
     if (!text.trim()) return
-    await axios.post('http://localhost:5000/entry', { text })
+    await axios.post('https://ai-journaling-backend.onrender.com/entry', { text })
     setText('')
     window.location.reload()
   }
